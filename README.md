@@ -3,7 +3,7 @@ About xpdview
 
 Home: https://github.com/xpdAcq/xpdView
 
-Package license: 
+Package license: BSD-3-Clause
 
 Feedstock license: BSD-3-Clause
 
@@ -17,7 +17,7 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/nsls2forge/nsls2forge/_build/latest?definitionId=&branchName=master">
+      <a href="https://dev.azure.com/nsls2forge/nsls2forge/_build/latest?definitionId=225&branchName=master">
         <img src="https://dev.azure.com/nsls2forge/nsls2forge/_apis/build/status/xpdview-feedstock?branchName=master">
       </a>
     </td>
