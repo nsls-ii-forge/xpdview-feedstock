@@ -10,7 +10,6 @@ source:
   url: https://github.com/xpdAcq/{{ name }}/releases/download/{{ version }}/{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
-
 build:
   noarch: python
   number: 0
@@ -22,11 +21,11 @@ requirements:
     - pip
   run:
     - python >=3.6
-    - numpy
-    - matplotlib
-    - xray-vision
     - bluesky
     - cycler
+    - matplotlib
+    - numpy
+    - xray-vision
 
 test:
   imports:
@@ -35,5 +34,6 @@ test:
 
 about:
   home: https://github.com/xpdAcq/xpdView
+  license: BSD-3-Clause
   license_file: LICENSE.txt
   summary: Python package for visualizing X-ray scattering data at the NSLS-II XPD Beamline.
